@@ -1,0 +1,26 @@
+.card {
+  border: 2px solid dodgerblue;
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.card-holder{
+  display: flex;
+  justify-content: center;
+}
+#createdCards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#createdCards div {
+  width: 30%;
+  box-sizing: border-box;
+  border: 1px solid darkblue;
+  margin: 5px;
+  align-self: center;
+}
